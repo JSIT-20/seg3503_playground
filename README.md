@@ -1,6 +1,7 @@
 ## Synopsis
 
-
+| Syntax | Description |
+| --- | --- |
 | Cours | SEG 3503 |
 | Travail | Lab 1 |
 | Nom | Jean-Sébastien Demers |
