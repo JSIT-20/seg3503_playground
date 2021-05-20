@@ -9,6 +9,7 @@
 | Professeur | Andrew Forward, aforward@uottawa.ca |
 | TA | Aymen Mhamdi, amham077@uottawa.ca |
 
+
 Lien au repo: https://github.com/JSIT-20/seg3503_playground
 
 Le code se retrouve dans les folders 'newmath_ex' et 'newmath_java'
