@@ -9,6 +9,8 @@
 | Professeur | Andrew Forward, aforward@uottawa.ca |
 | TA | Aymen Mhamdi, amham077@uottawa.ca |
 
+Lien au repo: https://github.com/4nn3-50ph13/seg3103_playground/tree/main/Lab01
+
 Le code se retrouve dans les folders 'newmath_ex' et 'newmath_java'
 
 Les captures d'écran du code exécuté sur mon ordinateur sont dans le folder 'assets'
