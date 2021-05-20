@@ -13,7 +13,7 @@ Le code se retrouve dans les folders 'newmath_ex' et 'newmath_java'
 
 Les captures d'écran du code exécuté sur mon ordinateur sont dans le folder 'assets'
 
-Veuillez voir la section 'Instructions' ci-dessous pour voir comment exécuter le code sur un environement Windows
+Veuillez voir la section 'Instructions' ci-dessous pour voir comment exécuter le code sur un environnement Windows
 
 ## Instructions
 
