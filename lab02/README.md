@@ -25,7 +25,7 @@ Pour l'exercice 2, j'ai ajouté mon code dans les fichiers DateTest.java, DateNe
 ![JUnit](assets/JUnit_2.PNG)
 
 
-##Exercice 1
+## Exercice 1
 
 | Cas de test | Résultats escomptés | Résultats actuels | Verdict |
 | --- | --- | --- | --- |
