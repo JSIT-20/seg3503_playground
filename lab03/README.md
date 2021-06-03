@@ -36,7 +36,14 @@ Initiallement, il y avait une couverture d'énoncés de 85% et une couverture de
 
 En ajoutant une vingtaine de tests, j'ai réussi à monter la couverture d'énoncés à 100% et la couverture de branches à 98%.
 
+Vous trouverez ci-dessous quelques exemples de tests ajoutés (certains paramétrisés, d'autres non). SVP voir les fichiers de tests si vous désirez voir les autres.
+
 ![couverture après tests ajoutés](assets/added_tests_jacoco_default.PNG)
+
+
+![DateTest](assets/DateTestExample.PNG)
+![DateNextDateOkExample](assets/DateNextDateOkExample.PNG)
+![DateExceptionExample](assets/DateExceptionExample.PNG)
 
 ## Refactoriser Date.java
 
