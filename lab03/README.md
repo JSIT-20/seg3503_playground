@@ -34,7 +34,7 @@ Initiallement, il y avait une couverture d'énoncés de 85% et une couverture de
 
 ![couverture initiale](assets/initial_jacoco_default.PNG)
 
-En ajoutant une vingtaine de tests, j'ai réussi à monter la couverture d'énoncés à 100% et la couverture de branches à 98%.
+En ajoutant une vingtaine de tests, j'ai réussi à monter la couverture d'énoncés à 99% et la couverture de branches à 92%.
 
 Vous trouverez ci-dessous quelques exemples de tests ajoutés (certains paramétrisés, d'autres non). SVP voir les fichiers de tests si vous désirez voir les autres.
 
