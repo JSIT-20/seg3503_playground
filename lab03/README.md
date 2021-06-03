@@ -10,7 +10,7 @@
 | TA | Aymen Mhamdi, amham077@uottawa.ca |
 
 
-Lien au repo: https://github.com/JSIT-20/seg3503_playground/lab03
+Lien au repo: https://github.com/JSIT-20/seg3503_playground/tree/main/lab03
 
 ## Description du lab
 
