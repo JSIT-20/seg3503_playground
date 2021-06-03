@@ -235,6 +235,14 @@ class DateTest {
     assertEquals(today.equals(compare), true);
   }
 
+  @Test
+  void nextDate_invalid_tc33() {
+    assertThrows(
+      IllegalArgumentException.class,
+      () -> (new Date(2023, 2, 29)).nextDate()
+    );
+  }
+
 
 
 }

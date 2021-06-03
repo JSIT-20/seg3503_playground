@@ -34,26 +34,25 @@ Initiallement, il y avait une couverture d'énoncés de 85% et une couverture de
 
 ![couverture initiale](assets/initial_jacoco_default.PNG)
 
-En ajoutant 18 tests, j'ai réussi à monter la couverture d'énoncés à 99% et la couverture de branches à 92%.
+En ajoutant une vingtaine de tests, j'ai réussi à monter la couverture d'énoncés à 100% et la couverture de branches à 98%.
 
 ![couverture après tests ajoutés](assets/added_tests_jacoco_default.PNG)
 
 ## Refactoriser Date.java
 
-Pour refactoriser Data.java, j'ai fait deux modifications.
-
-Il y avait deux méthodes qui causaient des branches impossibles à atteindre: isEndOfMonth() et isThirtyDayMonth().
+Pour refactoriser Data.java, modifié la fonction isEndOfMonth().
 
 Pour isEndOfMonth, il était impossible que le jours soit égal à 30 et 31 en même temps.
 
-Pour isThirtyDayMonth, même principe, le mois peux seulement avoir une valeur.
-
 J'ai donc séparé les clauses en plusieurs blocs conditionnels.
 
-![isEndOfMonth](assets/isEndOfMonth.PNG)
-![isThirtyDayMonth](assets/isThirtyDayMonth.PNG)
+J'ai également réduit la clause 'day == 29 && leap' à seulement 'day ==29'. Il était impossible d'atteindre le cas (1,0) puisque si on essaie de créer une date le 29 février sur une année non leap, il y a une exception qui est lancée plus tôt.
 
-Ces modifications m'ont permis de monter ma couverture d'instructions à 100% et ma couverture de branches à 97%.
+![isEndOfMonth](assets/isEndOfMonth.PNG)
+
+Ces modifications m'ont permis de monter ma couverture d'instructions à 100% et ma couverture de branches à 100%.
+
+![refactor jacoco](assets/refactor_jacoco_2.PNG)
 
 La couverture a monté puisque des branches qui ne pouvaient pas être couvertes auparavant sont maintenant couvertes.
 

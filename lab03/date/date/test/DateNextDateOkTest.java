@@ -47,6 +47,9 @@ public class DateNextDateOkTest
     params.add(new Integer[] { 1600, 9, 15, 1600, 9, 16 });
     //Test for non leap year and feb 28
     params.add(new Integer[] { 2023, 2, 28, 2023, 3, 01 });
+    params.add(new Integer[] { 2024, 2, 28, 2024, 2, 29 });
+    //Test for leap year and feb 29
+
     return params;
   }
 

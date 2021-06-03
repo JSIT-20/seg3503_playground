@@ -104,40 +104,20 @@ public class Date {
 	 *
 	 * Check if the date is a end of a month.
 	 */
-
 	private boolean isEndOfMonth() {
 		boolean leap = isLeapYear();
-		if ((this.month == 2 && (day == 29 && leap ))){
+		if (day == 31 || (day == 30 && isThirtyDayMonth()) ||
+				(this.month == 2 && ((day == 29 && leap) || (day == 28 && !leap))))
 			return true;
-		}
-		else if(day == 28 && !leap){
-			return true;
-		}
-		else if (day == 31){
-			return true;
-		}
-		else if (day == 30 && isThirtyDayMonth()){
-			return true;
-		}
-		else return false;
+		return false;
 	}
 
 	/**
 	 * returns true if month has 30 days.
 	 */
 	private boolean isThirtyDayMonth() {
-		if(this.month == 4){
+		if (this.month == 4 || this.month == 6 || this.month == 9 || this.month == 11)
 			return true;
-		}
-		else if(this.month == 6){
-			return true;
-		}
-		else if(this.month == 9){
-			return true;
-		}
-		else if(this.month == 11){
-			return true;
-		}
 		else return false;
 	}
 
