@@ -17,4 +17,10 @@ class fizzbuzzJavaTest{
     assertEquals("2", fizz.fizzbuzz(2));
   }
 
+  @Test
+  void fizzbuzzTest3(){
+    fizzbuzz_java fizz = new fizzbuzz_java();
+    assertEquals("3", fizz.fizzbuzz(3));
+  }
+
 }
