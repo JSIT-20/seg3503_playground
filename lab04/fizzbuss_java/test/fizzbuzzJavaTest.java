@@ -34,5 +34,10 @@ class fizzbuzzJavaTest{
     fizzbuzz_java fizz = new fizzbuzz_java();
     assertEquals("buzz", fizz.fizzbuzz(5));
   }
+  @Test
+  void fizzbuzzTest6(){
+    fizzbuzz_java fizz = new fizzbuzz_java();
+    assertEquals("fizzbuzz", fizz.fizzbuzz(6));
+  }
 
 }
