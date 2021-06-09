@@ -18,12 +18,12 @@ Le but du lab 4 est de faire du Test Driven Development. Pour ce lab, j'ai chois
 
 Mes commits sont regroupés en 6 groupes. Dans chaque groupe, il y a les éléments suivants:
 
--L'ajout d'un test
--La preuve que le test ne fonctionne pas
--Modification du code pour faire fonctionner le test
--Preuve que les tests fonctionne après la modification
--Refactorisation du code
--Preuve que les tests fonctionnent après la modification
+- L'ajout d'un test
+- La preuve que le test ne fonctionne pas
+- Modification du code pour faire fonctionner le test
+- Preuve que les tests fonctionne après la modification
+- Refactorisation du code
+- Preuve que les tests fonctionnent après la modification
 
 Des images sont fournies pour chaque groupe de commit. Le code est disponible dans le folder /fizzbuzz_java. Les instructions pour compiler et exécuter le code sur un ordinateur windows sont dans le folder /fizzbuzz_java/bin.
 
