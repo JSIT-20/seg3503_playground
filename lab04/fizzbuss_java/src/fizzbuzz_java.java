@@ -2,15 +2,18 @@ class fizzbuzz_java{
 
   public static String fizzbuzz(int n){
 
-    if(n % 3 == 0 && n % 5 == 0){
+    Boolean mod3 = n % 3 == 0;
+    Boolean mod5 = n % 5 == 0;
+
+    if(mod3 && mod5){
       return "fizzbuzz";
     }
 
-    if(n % 3 == 0){
+    if(mod3){
       return "fizz";
     }
 
-    else if(n % 5 == 0){
+    else if(mod5){
       return "buzz";
     }
 
