@@ -1,3 +1,16 @@
+## Synopsis
+
+| Syntax | Description |
+| --- | --- |
+| Cours | SEG 3503 |
+| Travail | Devoir 2 |
+| Nom | Jean-Sébastien Demers |
+| Numéro d'étudiant | 300115743 |
+| Professeur | Andrew Forward, aforward@uottawa.ca |
+| TA | Aymen Mhamdi, amham077@uottawa.ca |
+
+Vous trouverez dans ce repo mon code pour le Devoir 2 du cours SEG 3503. Mes modifications de Calculator.ex peuvent être trouvées sous /lib/grades/calculator.ex et mes test cases peuvent être trouvés sous /test/grades/calculator_test.exs
+
 # Grades
 
 To start your Phoenix server:
