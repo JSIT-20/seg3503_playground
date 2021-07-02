@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Twitter {
 
   public String loadTweet()
@@ -18,7 +20,16 @@ public class Twitter {
 
   public boolean isMentionned(String name) {
     String tweet = loadTweet();
-    return tweet.contains("@" + name);
+    if(tweet == null){
+      return false;
+    }
+    List<String> results = Arrays.asList(tweet.split(" "));
+    for(String result: results){
+      if(result.equals("@" + name)){
+        return true;
+      }
+    }
+    return false;
   }
 
 }

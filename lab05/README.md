@@ -18,20 +18,6 @@ Le but du lab 5 est de se familiariser avec les stubs et mocks.
 
 Le lab fait l'utilisation d'un projet 'grades' et d'un autre projet relié à twitter.
 
-Le but du lab 4 est de faire du Test Driven Development. Pour ce lab, j'ai choisi de faire l'option fizzbuzz (en java).
-
-Mes commits sont regroupés en 6 groupes. Dans chaque groupe, il y a les éléments suivants:
-
-- L'ajout d'un test
-- La preuve que le test ne fonctionne pas
-- Modification du code pour faire fonctionner le test
-- Preuve que les tests fonctionne après la modification
-- Refactorisation du code
-- Preuve que les tests fonctionnent après la modification
-
-Des images sont fournies pour chaque groupe de commit. Le code est disponible dans le folder /fizzbuzz_java. Les instructions pour compiler et exécuter le code sur un ordinateur windows sont dans le folder /fizzbuzz_java/bin.
-
-
 
 ## Partie 1 - Grades
 
@@ -57,26 +43,31 @@ Vous trouverez aussi la version avec le stub sous grades/grades/lib/grades/calcu
 
 ## Partie 2 - Twitter
 
-Ajout d'un test
+Pour la partie sur twitter, il fallait compléter quatre mock tests.
 
-![Test2](assets/CommitGroup2/Test2.PNG)
+Voici mes tests implémentés. Vous pouvez aussi voir le code sous twitter/twitter/test/TwitterTest.java
 
-Preuve que test ne fonctionne pas
+![twitter test 1](assets/first_mock_test.PNG)
 
-![Test2](assets/CommitGroup2/TestNotWorking2.PNG)
+![twitter test 2](assets/second_mock_test.PNG)
 
-Modification du code
+![twitter test 3](assets/third_mock_test.PNG)
 
-![Mod2](assets/CommitGroup2/Modification2.PNG)
+![twitter test 4](assets/fourth_mock_test.PNG)
 
-Preuve que les tests fonctionnent après la modification
+Deux des tests n'ont pas passé. Celui qui analyse les substrings et celui qui analyse les cas ou il n'y a pas de tweets (null).
 
-![Mod2](assets/CommitGroup2/TestWorkingAfterModification2.PNG)
+![junit result](assets/twitter_failures.PNG)
 
-Refactorisation
+J'ai donc modifié le code de la méthode isMentionned pour que les tests passent. Voici mes modifications:
 
-![Refactor2](assets/CommitGroup2/Refactor2.PNG)
+![isMentionned](assets/isMentionned.PNG)
 
-Preuve que les tests fonctionnent après la modification
+Tous les tests sont maintenant fonctionnels
 
-![Refactor2](assets/CommitGroup2/TestWorkingAfterRefactor2.PNG)
+![twitter pass](assets/twitter_passes.PNG)
+
+Au besoin, vous pouvez trouver le code de mes tests sous twitter/twitter/test/TwitterTest.java
+
+Vous pouvez aussi trouver le code twitter modifié sous twitter/twitter/src/Twitter.java
+
