@@ -14,7 +14,7 @@ Lien au repo: https://github.com/JSIT-20/seg3503_playground/tree/main/lab06
 
 ## Description du lab
 
-Le but du lab 5 est de se familiariser avec les maven et selenium (selenium peut être utilisé pour automatiser des tests d'acceptation des utilisateurs).
+Le but du lab 6 est de se familiariser avec maven et selenium (selenium peut être utilisé pour automatiser des tests d'acceptation des utilisateurs).
 
 Vous pouvez retrouver le test Selenium que j'ai fait sous ./BookstoreApp/src/test/java/selenium/ExampleSeleniumTest.java
 
