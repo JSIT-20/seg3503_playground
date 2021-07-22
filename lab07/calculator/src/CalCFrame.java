@@ -77,8 +77,6 @@ public CalCFrame(String title) {
         getContentPane().add( buttons[i] );
     else if ( i >=8 && i <= 12 )
         getContentPane().add( buttons[i] );
-    else if ( i >= 13 && i <= 17 )
-        getContentPane().add( buttons[i] );
     else
         getContentPane().add( buttons[i] );
 
@@ -345,6 +343,8 @@ public double calculate( int oper, double number1, double number2 )
           case SQRT:
             answer = Math.sqrt( number1 );
             break;
+          default:
+            answer = 0;
       } // end switch
 
      return answer;
