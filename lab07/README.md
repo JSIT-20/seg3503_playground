@@ -19,7 +19,7 @@ Le but du lab 7 est d'utiliser l'outil SpotBugs, qui aide à trouver des bugs da
 Vous pourrez voir les bugs que j'ai corrigé en regardant l'historique des commits (des messages descriptifs sont attachés à chaque commit).
 
 
-##Instructions
+## Instructions
 
 Pour compiler le code:
 
@@ -35,7 +35,7 @@ Pour exécuter SpotBugs:
 
 java -jar ./lib/spotbugs/lib/spotbugs.jar
 
-##Résultats
+## Résultats
 
 Initialement, il y avait 18 bugs dans l'application et dans le fichier de test.
 
@@ -45,8 +45,8 @@ Après avoir fixé certains bugs (voir les commits pour plus d'information), je 
 
 Le premier bug est lié à JFrame. Le message d'erreur dit 'Certain swing methods needs to be invoked in Swing thread'. Je n'ai pas d'expérience avec JFrame, donc il est difficile pour moi de régler ce bug.
 
-![SpotBugs first img](assets/Spotbugs_1.PNG)
+![SpotBugs first img](assets/Spotbug_1.PNG)
 
 Le deuxième bug est aussi lié à JFrame. Le message d'erreur est 'Could be refactored into a named static inner class'.
 
-![SpotBugs first img](assets/Spotbugs_2.PNG)
+![SpotBugs first img](assets/Spotbug_2.PNG)
